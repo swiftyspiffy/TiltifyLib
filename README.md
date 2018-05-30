@@ -7,7 +7,7 @@ using TiltifyLib;
 
 private TiltifyLib.Core core;
 
-core = new TiltifyLib.Core("5fa6406191582cd3f0ed183ccb6b8748");
+core = new TiltifyLib.Core("API KEY");
 
 var campaign = await core.GetCampaignAsync(); // gets campaign details
 var donations = await core.GetDonationsAsync(10); // gets most recent 10 donations
